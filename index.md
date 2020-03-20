@@ -329,11 +329,10 @@
 			<div class="col-md-4">
 		      <div class="ts-service-box">
 						<div class="ts-service-box-img pull-left">
-						   <img src="images/icon-image/service-icon1.png" alt="" />
+						   <img src="images/icon-image/service-icon2.png" alt="" />
 						</div>
 						<div class="ts-service-info">
-						   <h3 class="service-box-title"><a href="service-single.html">Home Construction</a></h3>
-						   <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						   <h3 class="service-box-title"><a href="">Instalaciones industriales - Mantenimiento</a></h3>
 						</div>
 					 </div><!-- Service1 end -->
 				  </div><!-- Col 1 end -->
@@ -341,11 +340,10 @@
 				  <div class="col-md-4">
 					 <div class="ts-service-box">
 						<div class="ts-service-box-img pull-left">
-						   <img src="images/icon-image/service-icon2.png" alt="" />
+						   <img src="images/icon-image/motor-electrico.png" alt="" />
 						</div>
 						<div class="ts-service-info">
-						   <h3 class="service-box-title"><a href="service-single.html">Building Remodels</a></h3>
-						   <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						   <h3 class="service-box-title"><a href=""></a>Montaje y tendido de cables para compresores y grupos electrógenos</a></h3>
 						</div>
 					 </div><!-- Service2 end -->
 				  </div><!-- Col 2 end -->
@@ -353,11 +351,10 @@
 				  <div class="col-md-4">
 					 <div class="ts-service-box">
 						<div class="ts-service-box-img pull-left">
-						   <img src="images/icon-image/service-icon3.png" alt="" />
+						   <img src="images/icon-image/automatismo.png" alt="" />
 						</div>
 						<div class="ts-service-info">
-						   <h3 class="service-box-title"><a href="service-single.html">Interior Design</a></h3>
-						   <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						   <h3 class="service-box-title"><a href="">Automatismo (PLC)- Instalación de sensores.</a></h3>
 						</div>
 					 </div><!-- Service3 end -->
 				  </div><!-- Col 3 end -->
@@ -365,33 +362,61 @@
 				  <div class="col-md-4">
 					<div class="ts-service-box">
 					   <div class="ts-service-box-img pull-left">
-						  <img src="images/icon-image/service-icon3.png" alt="" />
+						  <img src="images/icon-image/portacables.png" alt="" />
 					   </div>
 					   <div class="ts-service-info">
-						  <h3 class="service-box-title"><a href="service-single.html">Interior Design</a></h3>
-						  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						  <h3 class="service-box-title"><a href="">Montaje de bandejas Standard y sanitarias</a></h3>
 					   </div>
 					</div><!-- Service3 end -->
 				 </div><!-- Col 3 end -->
 				 <div class="col-md-4">
 					<div class="ts-service-box">
 					   <div class="ts-service-box-img pull-left">
-						  <img src="images/icon-image/service-icon3.png" alt="" />
+						  <img src="images/icon-image/montaje-motor.png" alt="" />
 					   </div>
 					   <div class="ts-service-info">
-						  <h3 class="service-box-title"><a href="service-single.html">Interior Design</a></h3>
-						  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						  <h3 class="service-box-title"><a href="">Electromecánica-Conexionado de motores</a></h3>
 					   </div>
 					</div><!-- Service3 end -->
 				 </div><!-- Col 3 end -->
 				 <div class="col-md-4">
 					<div class="ts-service-box">
 					   <div class="ts-service-box-img pull-left">
-						  <img src="images/icon-image/service-icon3.png" alt="" />
+						  <img src="images/icon-image/tendido-cables.png" alt="" />
 					   </div>
 					   <div class="ts-service-info">
-						  <h3 class="service-box-title"><a href="service-single.html">Interior Design</a></h3>
-						  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+						  <h3 class="service-box-title"><a href="">Tendido de cables</a></h3>
+					   </div>
+					</div><!-- Service3 end -->
+				 </div><!-- Col 3 end -->
+				 <div class="gap-30"></div>
+				 <div class="col-md-4">
+					<div class="ts-service-box">
+					   <div class="ts-service-box-img pull-left">
+						  <img src="images/icon-image/marcador.png" alt="" />
+					   </div>
+					   <div class="ts-service-info">
+						  <h3 class="service-box-title"><a href="">Montaje de tableros</a></h3>
+					   </div>
+					</div><!-- Service3 end -->
+				 </div><!-- Col 3 end -->
+				 <div class="col-md-4">
+					<div class="ts-service-box">
+					   <div class="ts-service-box-img pull-left">
+						  <img src="images/icon-image/tarjeta-de-circuito-impreso.png" alt="" />
+					   </div>
+					   <div class="ts-service-info">
+						  <h3 class="service-box-title"><a href="">Armado de placas de tableros</a></h3>
+					   </div>
+					</div><!-- Service3 end -->
+				 </div><!-- Col 3 end -->
+				 <div class="col-md-4">
+					<div class="ts-service-box">
+					   <div class="ts-service-box-img pull-left">
+						  <img src="images/icon-image/planos-electricos.png" alt="" />
+					   </div>
+					   <div class="ts-service-info">
+						  <h3 class="service-box-title"><a href="">Planos eléctricos</a></h3>
 					   </div>
 					</div><!-- Service3 end -->
 				 </div><!-- Col 3 end -->
@@ -410,14 +435,6 @@
 							 <img class="img-responsive" src="images/caja-electricidad.jpg" alt="">
 							 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						  </a>
-						  <div class="project-item-info">
-							 <div class="project-item-info-content">
-								<h3 class="project-item-title">
-								<a href="projects-single.html">Capital Teltway Building</a>
-								</h3>
-								<p class="project-cat">Commercial, Interiors</p>
-							 </div>
-						  </div>
 					   </div>
 					</div><!-- Isotope item 1 end -->
 					<div class="col-md-4 col-sm-6 col-xs-12 healthcare isotope-item">
@@ -426,14 +443,6 @@
 							  <img class="img-responsive" src="images/cables-eletricidad.jpg" alt="">
 							  <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						   </a>
-						   <div class="project-item-info">
-							  <div class="project-item-info-content">
-								 <h3 class="project-item-title">
-								 <a href="projects-single.html">Ghum Touch Hospital</a>
-								 </h3>
-								 <p class="project-cat">Healthcare</p>
-							  </div>
-						   </div>
 						</div>
 					 </div><!-- Isotope item 2 end -->
 					 <div class="col-md-4 col-sm-6 col-xs-12 government isotope-item">
@@ -442,14 +451,6 @@
 							  <img class="img-responsive" src="images/tablero-industrial.jpg" alt="">
 							  <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						   </a>
-						   <div class="project-item-info">
-							  <div class="project-item-info-content">
-								 <h3 class="project-item-title">
-								 <a href="projects-single.html">TNT East Facility</a>
-								 </h3>
-								 <p class="project-cat">Government</p>
-							  </div>
-						   </div>
 						</div>
 					 </div><!-- Isotope item 3 end -->
 					 <div class="col-md-4 col-sm-6 col-xs-12 education isotope-item">
@@ -458,14 +459,6 @@
 							  <img class="img-responsive" src="images/tablero-electridad-industria.jpg" alt="">
 							  <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						   </a>
-						   <div class="project-item-info">
-							  <div class="project-item-info-content">
-								 <h3 class="project-item-title">
-								 <a href="projects-single.html">Narriot Headquarters</a>
-								 </h3>
-								 <p class="project-cat">Infrastructure</p>
-							  </div>
-						   </div>
 						</div>
 					 </div><!-- Isotope item 4 end -->
 	  
@@ -475,14 +468,6 @@
 							  <img class="img-responsive" src="images/placa-electronica.jpg" alt="">
 							  <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						   </a>
-						   <div class="project-item-info">
-							  <div class="project-item-info-content">
-								 <h3 class="project-item-title">
-								 <a href="projects-single.html">Kalas Metrorail</a>
-								 </h3>
-								 <p class="project-cat">Infrastructure</p>
-							  </div>
-						   </div>
 						</div>
 					 </div><!-- Isotope item 5 end -->
 	  
@@ -492,14 +477,6 @@
 							  <img class="img-responsive" src="images/electricidad-industrial.jpg" alt="">
 							  <span class="gallery-icon"><i class="fa fa-plus"></i></span>
 						   </a>
-						   <div class="project-item-info">
-							  <div class="project-item-info-content">
-								 <h3 class="project-item-title">
-								 <a href="projects-single.html">Ancraft Avenue House</a>
-								 </h3>
-								 <p class="project-cat">Residential</p>
-							  </div>
-						   </div>
 						</div>
 					 </div><!-- Isotope item 6 end -->
 				  </div><!-- Isotop end -->
