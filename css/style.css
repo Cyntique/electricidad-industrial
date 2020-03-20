@@ -37,6 +37,10 @@
 
 /******************************************************
 ********************Mis estilos************************/
+html {
+    scroll-behavior: smooth;
+  }
+
 .servicios{
     background-image: url(../images/parallax.jpg);
     background-size: cover;
