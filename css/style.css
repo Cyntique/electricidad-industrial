@@ -47,9 +47,16 @@ html {
     background-position: center;
     background-attachment: fixed;
 }
+
 .ts-service-box-img img{
     filter: contrast(0%) sepia(1) hue-rotate(10deg) saturate(1000%)
 }
+=======
+html {
+    scroll-behavior: smooth;
+  }
+
+
 
 /* Typography
 ================================================== */
