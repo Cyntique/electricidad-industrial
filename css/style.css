@@ -43,8 +43,9 @@
     background-position: center;
     background-attachment: fixed;
 }
-
-
+.ts-service-box-img img{
+    filter: contrast(0%) sepia(1) hue-rotate(10deg) saturate(1000%)
+}
 
 /* Typography
 ================================================== */
@@ -1783,59 +1784,6 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .ts-service-box-bg h3{
     color: #fff;
 }
-
-
-/* Service box 
-
-.ts-service-box .ts-service-icon i {
-    font-size: 24px;
-    float: left;
-    color: #fff;
-    background: #ffb600;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-}
-
-.ts-service-box .ts-service-box-content {
-    margin-left: 80px;
-    margin-bottom: 30px;
-}
-
-.tab-content .ts-service-box .ts-service-box-content {
-    margin-left: 90px;
-}
-
-.ts-service-box .ts-service-box-content h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.ts-service-box .ts-service-box-info {
-    margin-left: 90px;
-    margin-bottom: 40px;
-}
-
-.service-box-title {
-    font-size: 18px;
-    margin: 0 0 10px;
-}
-
-.service-box-title a {
-    color: #333;
-}
-
-.service-box-title a:hover {
-    color: #ffb600;
-}
-
-.service-center-img {
-    padding: 0 20px;
-}
-*/
-
 /* Icon squre */
 
 .ts-service-icon.icon-round i {
