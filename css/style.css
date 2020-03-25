@@ -51,12 +51,18 @@ html {
 .ts-service-box-img img{
     filter: contrast(0%) sepia(1) hue-rotate(10deg) saturate(1000%)
 }
-=======
+
 html {
     scroll-behavior: smooth;
   }
-
-
+.logo img{
+     width: 200px;
+}
+.header-one .logo-area {
+    padding: 30px 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
 
 /* Typography
 ================================================== */
@@ -697,6 +703,7 @@ ul.top-info li p.info-text {
 
 .header-right {
     float: right;
+    padding-top: 1.5em;
 }
 
 ul.top-info-box {
@@ -3517,10 +3524,6 @@ label {
 .header-one ul.navbar-nav>li{
     padding-left: 0;
     padding-right: 20px;
-}
-
-.header-one .logo-area{
-    padding: 30px 0;
 }
 
 /* Header two */
