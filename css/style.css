@@ -39,7 +39,7 @@
 ********************Mis estilos************************/
 html {
     scroll-behavior: smooth;
-  }
+} 
 
 .servicios{
     background-image: url(../images/parallax.jpg);
@@ -52,9 +52,6 @@ html {
     filter: contrast(0%) sepia(1) hue-rotate(10deg) saturate(1000%)
 }
 
-html {
-    scroll-behavior: smooth;
-  }
 .logo img{
      width: 200px;
 }
@@ -63,7 +60,15 @@ html {
     padding-bottom: 8px;
     padding-top: 8px;
 }
-
+img.footer-logo{
+     max-width: 300px;
+}
+h3.into-sub-title{
+    padding-bottom: 0.5em;
+}
+.galeria {
+    background: linear-gradient(rgb(253, 253, 253), rgb(180, 179, 179));
+}
 /* Typography
 ================================================== */
 
