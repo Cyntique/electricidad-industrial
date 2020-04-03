@@ -42,43 +42,6 @@ jQuery(function ($) {
 	});
 
 
-	/* ----------------------------------------------------------- */
-	/*  Contact Map 
-	/* -----------------------------------------------------------*/
-
-	if ($('#map').length > 0) {
-
-		var contactmap = {
-			lat: 40.742964,
-			lng: -73.992277
-		};
-
-		$('#map')
-			.gmap3({
-				zoom: 13,
-				center: contactmap,
-				mapTypeId: google.maps.MapTypeId.ROADMAP,
-				scrollwheel: false
-			})
-
-			.marker({
-				position: contactmap
-			})
-
-			.infowindow({
-				position: contactmap,
-				content: "NYC Seminar and Conference Center, New York"
-			})
-
-			.then(function (infowindow) {
-				var map = this.get(0);
-				var marker = this.get(1);
-				marker.addListener('click', function () {
-					infowindow.open(map, marker);
-				});
-			});
-	}
-
 
 	/* ----------------------------------------------------------- */
 	/*  Main slideshow
@@ -86,24 +49,8 @@ jQuery(function ($) {
 
 	$('#main-slide').carousel({
 		pause: true,
-		interval: 100000,
+		interval: 6000,
 	});
-
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  Site search
-	/* ----------------------------------------------------------- */
-
-	$('.nav-search').on('click', function () {
-		$('.search-block').fadeIn(350);
-	});
-
-	$('.search-close').on('click', function () {
-		$('.search-block').fadeOut(350);
-	});
-
 
 
 	/* ----------------------------------------------------------- */
@@ -137,51 +84,7 @@ jQuery(function ($) {
 	});
 
 
-	//Testimonial slide
 
-	$("#testimonial-slide").owlCarousel({
-
-		loop: false,
-		margin: 30,
-		nav: false,
-		dots: true,
-		items: 3,
-		responsive: {
-			0: {
-				items: 1
-			},
-
-
-			600: {
-				items: 1
-			}
-		}
-
-	});
-
-
-
-	//Partners slide
-
-	$("#partners-carousel").owlCarousel({
-
-		loop: true,
-		margin: 20,
-		nav: false,
-		dots: false,
-		mouseDrag: true,
-		touchDrag: true,
-		items: 5,
-		responsive: {
-			0: {
-				items: 2
-			},
-			600: {
-				items: 5
-			}
-		}
-
-	});
 
 	//Page slide
 
@@ -211,35 +114,6 @@ jQuery(function ($) {
 	});
 
 
-	//Team slide
-
-	$("#team-slide").owlCarousel({
-
-		loop: false,
-		animateOut: 'fadeOut',
-		nav: true,
-		navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-		margin: 20,
-		dots: false,
-		mouseDrag: true,
-		touchDrag: true,
-		slideSpeed: 800,
-		items: 4,
-		responsive: {
-			0: {
-				items: 1
-			},
-			480: {
-				items: 2
-			},
-			1000: {
-				items: 4,
-				loop: false
-			}
-		}
-
-	});
-
 
 	/* ----------------------------------------------------------- */
 	/*  Video popup
@@ -259,41 +133,6 @@ jQuery(function ($) {
 		});
 
 	});
-
-
-	// -----------------------------
-	//  Count Up
-	// -----------------------------
-	function counter() {
-		var oTop;
-		if ($('.counterUp').length !== 0) {
-			oTop = $('.counterUp').offset().top - window.innerHeight;
-		}
-		if ($(window).scrollTop() > oTop) {
-			$('.counterUp').each(function () {
-				var $this = $(this),
-					countTo = $this.attr('data-count');
-				$({
-					countNum: $this.text()
-				}).animate({
-					countNum: countTo
-				}, {
-					duration: 1000,
-					easing: 'swing',
-					step: function () {
-						$this.text(Math.floor(this.countNum));
-					},
-					complete: function () {
-						$this.text(this.countNum);
-					}
-				});
-			});
-		}
-	}
-	$(window).on('scroll', function () {
-		counter();
-	});
-
 
 
 	/* ----------------------------------------------------------- */
