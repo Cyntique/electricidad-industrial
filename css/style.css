@@ -78,7 +78,7 @@ h3.into-sub-title{
     right:20px;
     bottom:70px;
     border-radius:50%;
-    line-height:80px;
+    line-height:5em;
     text-align:center;
     z-index:999;
 }
@@ -1609,6 +1609,9 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .ts-intro{
     padding-right: 20px;
 }
+.ts-intro p{
+    margin: 0.5em;
+}
 
 .into-title{
     font-weight: 300;
@@ -1794,6 +1797,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .service-box-title {
     font-size: 16px;
     margin: 0 0 10px;
+    padding-bottom: 3em;
 }
 
 .service-box-title a {
@@ -1815,6 +1819,7 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
     background: #252525;
     color: #fff;
     padding: 30px;
+    margin-bottom: 0.5em;
 }
 
 .ts-service-box-bg h4,
