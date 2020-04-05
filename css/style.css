@@ -82,6 +82,10 @@ h3.into-sub-title{
     text-align:center;
     z-index:999;
 }
+.form-group.error-container{
+    text-align: center;
+    font-size: 1.5em;
+}
 
 /* Typography
 ================================================== */

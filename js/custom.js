@@ -150,13 +150,11 @@ jQuery(function ($) {
 
 			var $name = $form.find('.form-control-name'),
 				$email = $form.find('.form-control-email'),
-				$subject = $form.find('.form-control-subject'),
 				$message = $form.find('.form-control-message');
 
 			$.post(action, {
 					name: $name.val(),
 					email: $email.val(),
-					subject: $subject.val(),
 					message: $message.val()
 				},
 				function (data) {
@@ -166,7 +164,6 @@ jQuery(function ($) {
 					if (data.match('success') != null) {
 						$name.val('');
 						$email.val('');
-						$subject.val('');
 						$message.val('');
 					}
 				}
